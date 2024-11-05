@@ -26,7 +26,6 @@ Configure Environment Variables:
 
 Create a .env file in your backend directory with the following variables:
 env
-Copy code
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
@@ -37,26 +36,18 @@ Running the Backend
 Install Backend Dependencies:
 
 Navigate to your backend directory:
-bash
-Copy code
 cd path/to/your/backend
 Install the required dependencies:
-bash
-Copy code
 npm install
-Run the Backend Server:
+Run the Backend Server: node server.js
 
 Start the server:
-bash
-Copy code
-npm start
 The server will run on http://localhost:4000.
 Frontend Setup
-Running the Frontend
+Running the Frontend : npm run dev
 Install Frontend Dependencies:
-
-Usage
 Open your browser and go to http://localhost:3000.
+
 If you haven't set a username, you will be redirected to the login page. Enter a username to proceed.
 You can now submit comments, and they will appear in real-time for all users connected to the same page.
 Assumptions
@@ -68,11 +59,6 @@ Ensure that CORS policies are properly configured on the backend if you are acce
 Contributing
 Contributions are welcome! Please submit a pull request or open an issue for discussion.
 
-License
-This project is licensed under the MIT License.
-
-sql
-Copy code
 
 ### Notes
 1. **Database Credentials**: Ensure you replace placeholder values like `your_mysql_username` and `your_mysql_password` with actual values when configuring the environment variables.
